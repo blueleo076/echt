@@ -1,0 +1,22 @@
+name: Translation / Übersetzung
+description: Fix a wording or add a language
+labels: [translation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Translations are one file per language (`js/lang-xx.js`), see [CONTRIBUTING.md](https://github.com/blueleo076/echt/blob/main/CONTRIBUTING.md#adding-or-improving-a-translation). A pull request is the quickest way, an issue works too.
+  - type: input
+    id: language
+    attributes:
+      label: Language / Sprache
+      placeholder: English, Français, Español, Türkçe …
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change? / Was soll sich ändern?
+      description: The text as shown now and your suggestion. A new language: say whether you want to translate it yourself.
+    validations:
+      required: true

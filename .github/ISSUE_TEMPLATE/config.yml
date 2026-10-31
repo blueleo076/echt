@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem / Sicherheitslücke
+    url: https://github.com/blueleo076/echt/security/advisories/new
+    about: Please report vulnerabilities privately, not as a public issue. Bitte Sicherheitslücken nicht öffentlich melden.

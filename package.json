@@ -1,0 +1,18 @@
+{
+  "name": "echt",
+  "version": "1.0.0",
+  "description": "Prove who is really calling and what is really authentic. Local-first, no account, no server, no dependencies.",
+  "license": "AGPL-3.0-only",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node serve.mjs --open",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueleo076/echt.git"
+  }
+}

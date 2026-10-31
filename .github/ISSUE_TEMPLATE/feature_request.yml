@@ -1,0 +1,24 @@
+name: Idea / Idee
+description: Suggest an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Which problem would it solve? / Welches Problem löst es?
+      description: ECHT is for non-technical people. Who would use this, and when?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Deine Idee
+    validations:
+      required: true
+  - type: checkboxes
+    id: protocol
+    attributes:
+      label: Touches the protocol?
+      description: Word lists, code derivation and the seal/journal formats must stay compatible across versions.
+      options:
+        - label: This would change the protocol (needs a version bump and discussion)

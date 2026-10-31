@@ -1,0 +1,17 @@
+{
+  "name": "ECHT – Dein Echtheits-Tresor",
+  "short_name": "ECHT",
+  "description": "Beweise, wer am Telefon wirklich spricht und was wirklich echt ist. Lokal, ohne Konto.",
+  "lang": "de",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f3ee",
+  "theme_color": "#0e6b5c",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
